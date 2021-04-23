@@ -1,0 +1,387 @@
+* 
+{
+	box-sizing:border-box;
+}
+
+body
+{
+	font-family: arial;
+	color:rgb(28,28,28);
+	margin:0;
+}
+
+h1, h2, h3
+{
+	font-family: verdana;
+	color:rgb(0,0,0);
+}
+
+nav
+{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	background-color:rgb(37,35,35);
+}
+
+nav > a
+{
+	text-decoration:none;
+	color:rgb(255,255,255);
+	font-weight:800;
+	font-size:32px;
+	font-family:serif;
+}
+
+nav ul
+{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	list-style:none;
+	padding:0;
+	width:100%;
+}
+
+nav ul li 
+{
+	text-align:center;
+	width:100%;
+}
+
+nav ul li a
+{
+	display:inline-block;
+	padding:10px 0;
+	width:100%;
+	text-decoration:none;
+	color:rgb(255,255,255);
+}
+
+header
+{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	color:rgb(255,255,255);
+	text-align:center;
+	padding:20px;
+}
+
+header h1
+{
+	color:rgb(255,255,255);
+}
+
+header p
+{
+	margin-bottom:2em;
+}
+
+.texto
+{
+	text-align:justify;
+	text-indent:60px;
+	line-height:1.6;
+	width:80%;
+	margin:0 auto;
+}
+
+#segmentos
+{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding:10px;
+}
+
+
+#segmentos div
+{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin-top:2vw;
+    text-align:center;
+}
+
+#fotos
+{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	padding-top:20px;
+}
+
+#fotos h2
+{
+	margin-bottom:20px;
+}
+
+#fotos img
+{
+	width:100%;
+}
+
+#flyer
+{
+	width:70%;
+	height:70%;
+	margin-left:17vw;
+}
+
+.imagem_contato
+{
+	margin:auto 0;
+	width:100%;
+	height:100%;
+	margin-left:0%;
+	margin-right:0%;
+	margin-top:0%;
+}
+
+iframe
+{
+	width:60%;
+	height:400px;
+	margin-top:5%;
+	margin-left:15%;
+	box-shadow:0px 0px 8px 8px rgb(72,39,74);
+}
+
+.lado-a-lado 
+{
+	display:table;
+	margin-left:35vw;
+	margin:auto 0;
+	width:100%;
+	height:100%;
+	margin-right:0%;
+	margin-top:0%;
+}
+
+.logocont
+{
+	margin-left:90px;
+}
+
+[class*="col-"] 
+{
+	float:left;
+	width:100%;
+	padding:15px;
+}
+	
+.formulario
+{
+	margin-left:100px;
+	margin-top:2vw;
+	padding:11px;
+}
+
+input[type=text],input[type=int] 
+{
+	font-size:85%;
+}
+
+#txtnome
+{
+	width:90%;
+}
+
+#txtemail
+{
+	width:90%;
+}
+	
+#inttelefone
+{
+	width:90%;
+}
+	
+#textcome
+{
+	width:90%;
+	font-family:Arial;
+	font-size:85%;
+}
+
+.posicao
+{
+	margin-left:95px;
+}
+
+footer
+{
+	text-align:center;
+	padding:3px;
+	background-color:rgb(72,39,74);
+	color:rgb(255,255,255);
+	font-size:12px;
+}
+
+.mySlides 
+{
+	display:none;
+}
+
+.slideshow-container /*contêiner de apresentação de slides*/
+{
+	position:relative;
+	margin:auto;
+}
+
+.prev, .next /*botões seguinte e anterior*/
+{
+	cursor:pointer;
+	position:absolute;
+	top:50%;
+	width:auto;
+	padding:50px;
+	margin-top:-65px;
+	color:rgb(255,255,255);
+	font-size:25px;
+	transition:0.1s ease;
+	border-radius:0 3px 3px 0;
+	user-select:none;
+}
+
+.next /*posicione o "próximo botão" à direita*/
+{
+	right:0;
+}
+
+.dot /*os pontos/marcadores/indicadores*/
+{
+	cursor:pointer;
+	height:10px;
+	width:10px;
+	margin:0 2px;
+	background-color:rgb(120,120,120);
+	border-radius:50%;
+	display:inline-block;
+	transition:background-color 0.2s ease;
+}
+
+.active, .dot:hover 
+{
+	background-color:rgb(40,40,40);
+}
+
+.fade /*animação de desvanecimento*/
+{
+	-webkit-animation-name:fade;
+	-webkit-animation-duration:1.5s;
+	animation-name:fade;
+	animation-duration:1.5s;
+}
+
+@-webkit-keyframes fade 
+{
+	from 
+	{
+		opacity:.4
+	} 
+	to 
+	{
+		opacity:1
+	}
+}
+
+@keyframes fade 
+{
+	from 
+	{
+		opacity:.4
+	} 
+	to 
+	{
+		opacity:1
+	}
+}
+
+@media screen and (min-width:768px)
+{
+	nav
+	{
+		flex-direction:row;
+		justify-content:space-around;
+	}
+	
+	nav ul
+	{
+		flex-direction:row;
+		width:70%;
+	}
+	
+	header
+	{
+		height:600px;
+		height:60vh;
+		justify-content:center;
+	}
+	
+	#sobre
+	{
+		height:250px;
+		height:30vh;
+		justify-content:center;
+		min-height:250px;
+	}
+	
+	#segmentos
+	{
+		flex-direction:row;
+		flex-wrap:wrap;
+		align-items:flex-start;
+		max-width:1000px;
+		margin:0 auto;
+	}
+	
+	#segmentos h2
+	{
+		text-align:center;
+		width:100%;
+	}
+	
+	#segmentos div
+	{
+		flex-grow:1;
+		flex-basis:150px;
+		padding:0 10px;
+	}
+	
+	#fotos
+	{
+		flex-direction:row;
+		flex-wrap:wrap;
+	}
+	
+	#fotos h2
+	{
+		width:100%;
+		text-align:center;
+	}
+	
+	#fotos img
+	{
+		width:33.3333333%;
+	}
+	
+	iframe
+	{
+		width:100%;
+	}
+	
+	.col-1 
+	{
+		width:55%;
+	}
+
+	.col-2 
+	{
+		width:50%;
+	}
+}
+
+
