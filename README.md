@@ -1,5 +1,5 @@
 ## Innovation Pro Systems
-Site de um empresa de software ficitícia, realizado junto com a Etec Basilides de Godoy. Projeto da empresa Innovation Pro Systems - Versão 1.0
+Site de um empresa de software fictícia, realizado junto com a Etec Basilides de Godoy. Projeto da empresa Innovation Pro Systems - Versão 1.0
 
 #### Tecnologias utilizadas:
 - Html
