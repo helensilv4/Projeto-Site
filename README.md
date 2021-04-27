@@ -1,40 +1,30 @@
-Este projeto foi feito para o Pré-TCC da ETEC Professor Basilides de Godoy.:school:
+## Innovation Pro Systems
+Site de um empresa de software ficitícia, realizado junto com a Etec Basilides de Godoy. Projeto da empresa Innovation Pro Systems - Versão 1.0
 
-Onde tivemos que desenvolver o site da nossa empresa (fictícia). :computer:
+#### Tecnologias utilizadas:
+- Html
+- Css
+- JavaScript - Slide
 
-##### Tecnologias utilizadas:
+#### Características:
+- Site totalmente responsivo 
+- Dois idiomas (Português BR/Ingles EUA)
 
--  HTML
--  CSS 
-- JavaScript (para o slide de fotos).
+#### Telas:
+- Home/Index
+- Sobre nós
+- Serviços 
+- Portfólio 
+- Blog
+- Contato
 
-##### O site consiste com:
-
-- Pagina Inicial
-- Sobre Nós ::woman_technologist: :man_technologist:
-- Serviços :computer:
-- Blog ::book:
-- Portfolio :book:
-- Contatos :telephone_receiver:
-- E também temos o site totalmente em Inglês. :us:
-- Totalmente responsivo :happy:
-
-#### Este projeto também conta com o trabalho da colega de sala:
-
+#### Contibuinte:
 Bruna Pianco 
 
-Algumas imagens do site:
-
-<img src ="imgsite/Home.JPG ">
-
-<img src ="imgsite/Home2.JPG ">
-
-<img src ="imgsite/Home3.JPG ">
-
-<img src ="imgsite/Sobrenos.JPG ">
-
-<img src ="imgsite/servicos.JPG ">
-
-<img src ="imgsite/contato.JPG ">
-
-<img src ="imgsite/Homees.JPG ">
+#### Imagens:
+<img src = "imgsite/Home.jpeg">
+<img src = "imgsite/Home2.jpeg">
+<img src = "imgsite/Home3.jpeg">
+<img src = "imgsite/Sobrenos.jpeg">
+<img src = "imgsite/servicos.jpeg">
+<img src = "imgsite/contato.jpeg">
