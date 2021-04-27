@@ -22,9 +22,9 @@ Site de um empresa de software ficitícia, realizado junto com a Etec Basilides 
 Bruna Pianco 
 
 #### Imagens:
-<img src = "imgsite/Home.jpeg">
-<img src = "imgsite/Home2.jpeg">
-<img src = "imgsite/Home3.jpeg">
-<img src = "imgsite/Sobrenos.jpeg">
-<img src = "imgsite/servicos.jpeg">
-<img src = "imgsite/contato.jpeg">
+<img src = "imgsite/Home.JPG">
+<img src = "imgsite/Home2.JPG">
+<img src = "imgsite/Home3.JPG">
+<img src = "imgsite/Sobrenos.JPG">
+<img src = "imgsite/servicos.JPG">
+<img src = "imgsite/contato.JPG">
